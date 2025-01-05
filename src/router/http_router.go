@@ -9,6 +9,7 @@ package router
 
 import "github.com/gin-gonic/gin"
 
+// 初始化路由
 func InitRouter() *gin.Engine {
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
